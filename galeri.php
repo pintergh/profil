@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeri - Ghazi</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- NAVBAR (SELALU IKUT) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ghazi</a>
+
+            <!-- Tombol hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu Navbar -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.php">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="galeri.php">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="karyaku.php">Karyaku</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.php">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hubungi.php">Hubungi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sosmed.php">Sosmed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- JARAK KARENA NAVBAR FIXED -->
+    <div style="margin-top: 90px;"></div>
+
+    <!-- HALAMAN GALERI -->
+    <section class="container">
+        <h3 class="text-center mb-4">Galeri Kegiatan & Karya</h3>
+        <p class="text-center text-muted mb-5">
+            Dokumentasi kegiatan dan hasil belajar coding website
+        </p>
+
+        <div class="row g-4">
+            <!-- ITEM GALERI -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://picsum.photos/400/300?random=1" class="card-img-top" alt="Galeri 1">
+                    <div class="card-body">
+                        <p class="card-text text-center">Belajar Coding</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://picsum.photos/400/300?random=2" class="card-img-top" alt="Galeri 2">
+                    <div class="card-body">
+                        <p class="card-text text-center">Membuat Website</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://picsum.photos/400/300?random=3" class="card-img-top" alt="Galeri 3">
+                    <div class="card-body">
+                        <p class="card-text text-center">Ekskul Coding</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://picsum.photos/400/300?random=4" class="card-img-top" alt="Galeri 4">
+                    <div class="card-body">
+                        <p class="card-text text-center">Latihan Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://picsum.photos/400/300?random=5" class="card-img-top" alt="Galeri 5">
+                    <div class="card-body">
+                        <p class="card-text text-center">Project Sederhana</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://picsum.photos/400/300?random=6" class="card-img-top" alt="Galeri 6">
+                    <div class="card-body">
+                        <p class="card-text text-center">Belajar Mandiri</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-3 mt-5 text-muted">
+        © 2026 Ghazi | Website Profil Pribadi
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
